@@ -12,7 +12,9 @@ export default defineUserConfig({
     logo: 'https://img.nilou.moe/images/R.png',
 
     navbar: ['/', '/v1/introduction/', '/v1/bbs/'],
-    repo: 'https://github.com/Amekiri-Studio/nilou-api-docs'
+    repo: 'https://github.com/Amekiri-Studio/nilou-api-docs',
+
+    
   }),
 
   bundler: viteBundler(),
