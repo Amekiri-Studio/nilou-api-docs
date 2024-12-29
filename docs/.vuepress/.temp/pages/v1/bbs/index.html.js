@@ -1,5 +1,5 @@
-import comp from "/home/amekiri/nilou-api-docs/docs/.vuepress/.temp/pages/404.html.vue"
-const data = JSON.parse("{\"path\":\"/404.html\",\"title\":\"\",\"lang\":\"zh-CN\",\"frontmatter\":{\"layout\":\"NotFound\"},\"headers\":[],\"git\":{},\"filePathRelative\":null}")
+import comp from "/home/amekiri/nilou-api-docs/docs/.vuepress/.temp/pages/v1/bbs/index.html.vue"
+const data = JSON.parse("{\"path\":\"/v1/bbs/\",\"title\":\"米游社/HoYoLAB\",\"lang\":\"zh-CN\",\"frontmatter\":{},\"headers\":[],\"git\":{},\"filePathRelative\":\"v1/bbs/README.md\"}")
 export { comp, data }
 
 if (import.meta.webpackHot) {

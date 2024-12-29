@@ -3,15 +3,16 @@ import { defineUserConfig } from 'vuepress/cli'
 import { viteBundler } from '@vuepress/bundler-vite'
 
 export default defineUserConfig({
-  lang: 'en-US',
+  lang: 'zh-CN',
 
-  title: 'VuePress',
-  description: 'My first VuePress Site',
+  title: '妮露API',
+  description: '您的原神好助手',
 
   theme: defaultTheme({
-    logo: 'https://vuejs.press/images/hero.png',
+    logo: 'https://img.nilou.moe/images/R.png',
 
-    navbar: ['/', '/get-started'],
+    navbar: ['/', '/v1/introduction/', '/v1/bbs/'],
+    repo: 'https://github.com/Amekiri-Studio/nilou-api-docs'
   }),
 
   bundler: viteBundler(),
