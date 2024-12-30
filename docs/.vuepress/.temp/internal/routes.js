@@ -10,20 +10,3 @@ export const routes = Object.fromEntries([
   ["/v1/bbs/genshin/getDetailInfo/", { loader: () => import(/* webpackChunkName: "v1_bbs_genshin_getDetailInfo_index.html" */"/home/amekiri/nilou-api-docs/docs/.vuepress/.temp/pages/v1/bbs/genshin/getDetailInfo/index.html.js"), meta: {"title":"米游社/HoYoLAB-原神：获取详细数据"} }],
   ["/404.html", { loader: () => import(/* webpackChunkName: "404.html" */"/home/amekiri/nilou-api-docs/docs/.vuepress/.temp/pages/404.html.js"), meta: {"title":""} }],
 ]);
-
-if (import.meta.webpackHot) {
-  import.meta.webpackHot.accept()
-  if (__VUE_HMR_RUNTIME__.updateRoutes) {
-    __VUE_HMR_RUNTIME__.updateRoutes(routes)
-  }
-  if (__VUE_HMR_RUNTIME__.updateRedirects) {
-    __VUE_HMR_RUNTIME__.updateRedirects(redirects)
-  }
-}
-
-if (import.meta.hot) {
-  import.meta.hot.accept(({ routes, redirects }) => {
-    __VUE_HMR_RUNTIME__.updateRoutes(routes)
-    __VUE_HMR_RUNTIME__.updateRedirects(redirects)
-  })
-}
